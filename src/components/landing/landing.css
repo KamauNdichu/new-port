@@ -1,0 +1,103 @@
+.landingContainer {
+  height: 70vh;
+  display: flex;
+  padding: 20px;
+  /* background-color: rgba(255, 0, 0, 0.068); */
+}
+
+.landingProfile {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.landingProfileName {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.landingProfileText {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.landingSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingIcon {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgba(0, 128, 0, 0.753);
+}
+
+.landingAbout {
+  flex: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resume {
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgba(11, 99, 11, 0.63);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 270px;
+  text-decoration: none;
+}
+
+.resume:hover {
+  background-color: rgba(11, 99, 11, 0.829);
+  transition: all 0.5s;
+}
+
+.aboutMe {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.skillsText {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.664);
+}
+
+.landingAboutSkills {
+  padding: 10px;
+  background-color: #000;
+  margin-left: -5rem;
+  margin-top: 20px;
+  list-style-type: none;
+  font-size: 1rem;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}

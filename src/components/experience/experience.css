@@ -1,0 +1,54 @@
+.expContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.expCompany {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.companyLogo {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.companyName {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.workDuration {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.expResContainer {
+  margin-bottom: 20px;
+}
+
+.resText {
+  font-weight: 300;
+}
+
+.expResponsibilities {
+  list-style-type: none;
+}
+
+.expResponsibility {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.expCompany a {
+  color: #000;
+  text-decoration: none;
+}

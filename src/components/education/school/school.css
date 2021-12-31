@@ -1,0 +1,60 @@
+.schContainer {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  margin-bottom: 30px;
+}
+
+.schHeader {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.schLogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: fit;
+}
+
+.schName {
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.schDuration {
+  font-size: 0.9rem;
+}
+.courseContainer {
+  display: flex;
+  align-items: center;
+}
+
+.courseName {
+  font-weight: 300;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.downloadCertBtn {
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.425);
+  height: 20px;
+}
+
+.downloadCertBtn:hover {
+  background-color: rgba(0, 0, 0, 0.658);
+  transition: all 0.5s;
+}
