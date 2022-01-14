@@ -5,7 +5,7 @@ export default function School(props) {
   let { schLogo, schName, duration, course } = props;
 
   return (
-    <div className="schContainer">
+    <section className="sch">
       <div className="schHeader">
         <img src={schLogo} alt="logo" className="schLogo" />
         <h2 className="schName">{schName}</h2>
@@ -17,6 +17,6 @@ export default function School(props) {
           <Download /> &nbsp; See Cert
         </button>
       </div>
-    </div>
+    </section>
   );
 }

@@ -32,8 +32,14 @@ export default function Skills() {
           </li>
         </ul>
       </div>
-      <div className="skillsWebDev">
-        <img className="skillsImg" src="/img/google-pixel.png" alt="wedDev" />
+      <div className="email">
+        <a href="mailto:kjndichu01@gmail.com">
+          <img
+            className="skillsImg"
+            src="/img/desktop-email.png"
+            alt="wedDev"
+          />
+        </a>
       </div>
     </div>
   );

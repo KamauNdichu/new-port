@@ -24,12 +24,13 @@ const schools = [
 
 export default function Education() {
   return (
-    <div className="eduContainer">
-      <div className="school">
-        <h2 className="schoolText">education</h2>
-        {schools.map((school) => {
+    <section className="eduContainer">
+      <h2 className="schoolText">education</h2>
+      <section className="schContainer">
+        {schools.map((school, index) => {
           return (
             <School
+              key={index}
               schLogo={school.logo}
               schName={school.name}
               duration={school.duration}
@@ -37,10 +38,7 @@ export default function Education() {
             />
           );
         })}
-      </div>
-      <div className="interests">
-        <h2 className="interestsText">interests</h2>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }

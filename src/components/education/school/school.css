@@ -1,4 +1,11 @@
 .schContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 100px 0 100px;
+  margin-bottom: 100px;
+}
+
+.sch {
   width: 80%;
   padding: 10px;
   display: flex;
@@ -8,7 +15,6 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   margin-bottom: 30px;
 }
-
 .schHeader {
   padding: 10px;
   display: flex;

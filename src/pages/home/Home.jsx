@@ -44,20 +44,23 @@ export default function Home() {
       <Navbar />
       <Landing />
       <Skills />
-      <h2 className="expTitle">Working Experience</h2>
-      {work.map((workItem) => {
-        return (
-          <Experience
-            companyLogo={workItem.logo}
-            companyName={workItem.company}
-            workDuration={workItem.duration}
-            workLocation={workItem.location}
-            Duties={workItem.duties}
-            website={workItem.website}
-          />
-        );
-      })}
       <Education />
+      <h2 className="expTitle">Working Experience</h2>
+      <section className="expContainer">
+        {work.map((workItem, index) => {
+          return (
+            <Experience
+              key={index}
+              companyLogo={workItem.logo}
+              companyName={workItem.company}
+              workDuration={workItem.duration}
+              workLocation={workItem.location}
+              Duties={workItem.duties}
+              website={workItem.website}
+            />
+          );
+        })}
+      </section>
       <Footer />
     </section>
   );

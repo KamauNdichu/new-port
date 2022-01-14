@@ -10,7 +10,7 @@ export default function Experience(props) {
     Duties,
   } = props;
   return (
-    <div className="expContainer">
+    <section>
       <div className="expCompany">
         <img src={companyLogo} alt="logo" className="companyLogo" />
         <a href={website}>
@@ -23,11 +23,15 @@ export default function Experience(props) {
       <div className="expResContainer">
         <h2 className="resText">Responsibilities:</h2>
         <ul className="expResponsibilities">
-          {Duties.map((duty) => {
-            return <li className="">{duty}</li>;
+          {Duties.map((duty, index) => {
+            return (
+              <li key={index} className="">
+                {duty}
+              </li>
+            );
           })}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
