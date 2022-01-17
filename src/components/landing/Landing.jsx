@@ -42,8 +42,7 @@ export default function Landing() {
         </a>
         <p className="aboutMe">
           Hi, I'm John Ndichu a Full Stack Web Developer with over 1 year
-          experience building highly scalable web applications using LAMP stack
-          and MERN stack.
+          experience building web applications using MERN stack and Django.
         </p>
         <h2 className="skillsText"> my stack </h2>
         <ul className="landingAboutSkills">
@@ -54,7 +53,7 @@ export default function Landing() {
             <code>React, Express, Node.js, Mongo DB</code>
           </li>
           <li>
-            <code>Django, Python, MySQL</code>
+            <code>Django, DjangoREST, MySQL</code>
           </li>
           <li>
             <code>REST API</code>
@@ -64,9 +63,6 @@ export default function Landing() {
           </li>
           <li>
             <code>AWS</code>
-          </li>
-          <li>
-            <code>Docker, Kubernetes</code>
           </li>
         </ul>
       </div>
