@@ -1,3 +1,5 @@
-## Portfolio App Build with React.js
+## Portfolio App Build with React.js,
 
-and hosted on **Heroku** at [https://kj-ndichu.herokuapp.com/](https://kj-ndichu.herokuapp.com/)
+and hosted on **Heroku** at [https://kj-ndichu.herokuapp.com/](https://kj-ndichu.herokuapp.com/)\
+
+<img src="public/img/portfolio.png">
