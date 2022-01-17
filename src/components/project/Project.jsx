@@ -16,11 +16,11 @@ export default function Project(props) {
       <h2 className="projectTitle">{projectTitle}</h2>
       <p className="projectDescription">{projectDescription}</p>
       <div className="actionButtons">
-        <a href={documentation} className="btn documentation">
-          <DocumentScannerRounded /> &nbsp; Documentation
-        </a>
         <a href={sourceCode} className="btn sourceCode">
           <GitHub /> &nbsp; Source Code
+        </a>
+        <a href={documentation} className="btn documentation">
+          <DocumentScannerRounded /> &nbsp; Documentation
         </a>
       </div>
     </div>
