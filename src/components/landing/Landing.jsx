@@ -37,7 +37,7 @@ export default function Landing() {
       </div>
 
       <div className="landingAbout">
-        <a className="resume" href="/Kj_cv.pdf" open>
+        <a className="resume" href="/Kj_cv.pdf" target="_blank">
           <FileDownloadRounded /> &nbsp; resume
         </a>
         <p className="aboutMe">
