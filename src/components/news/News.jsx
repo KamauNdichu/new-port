@@ -27,7 +27,7 @@ export default function News(props) {
 
   return (
     <div className="newsContainer">
-      <h2 className="headline">World News as at {date}</h2>
+      <h2 className="headline">Api Discontinued....</h2>
       {news.map((el, index) => {
         return (
           <section key={index} className="newsComponent">
